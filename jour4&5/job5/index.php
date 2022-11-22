@@ -6,8 +6,8 @@
     <input type= "text" name="username" id="username">
     <br>
 
-    <label for="passwor"> password </label>
-    <input type= "text" name="password" id="password">
+    <label for="password"> password </label>
+    <input type= "password" name="password" id="password">
     <br>
     
     <input type="submit" value="Envoyer !">
@@ -15,7 +15,7 @@
     </body>
     </html>
     <?php
-if (isset($_POST['username']) && isset($_POST['password'])){
+if (isset($_POST['username']) &&  ($_POST['password'])){
 
 if($_POST['username']   == 'John'  || $_POST['password']  == 'rambo') {
   echo "C est pas ma guerre";

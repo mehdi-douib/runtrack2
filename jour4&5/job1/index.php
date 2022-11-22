@@ -13,8 +13,9 @@
     <input type= "text" name="age" id="age">
     <br>
     <input type="submit" value="Envoyer !">
-    </body>
+    
 </form>
+</body>
 
 </html>
 
