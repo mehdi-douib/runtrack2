@@ -64,6 +64,4 @@ if (isset($_POST['largeur']) && isset($_POST['hauteur'])){
         echo "<br>";
     }
 }
-
-
 ?></pre>
