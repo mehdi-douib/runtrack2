@@ -42,7 +42,7 @@ function leetspeak($str){
   echo $str;
 }
 
-echo leetspeak('aAbBeEgGllsStT');
+echo leetspeak('Comprendre quand utiliser des fonctions');
 
 
 ?>
