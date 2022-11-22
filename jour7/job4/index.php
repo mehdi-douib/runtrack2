@@ -1,8 +1,7 @@
 <?php
 
 function calcule($a, $operation, $b)
-{
-     
+{   
       switch ($operation)
       {
             case '+':
