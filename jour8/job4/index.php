@@ -12,8 +12,6 @@ if (isset($_COOKIE) && isset($_POST['deco']))
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-</head>
 <body>
 <?php
 if (isset($_COOKIE['prenom']))
@@ -32,3 +30,6 @@ else
 }
 
 ?>
+</html>
+
+</body>
